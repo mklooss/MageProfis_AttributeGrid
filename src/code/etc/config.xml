@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageProfis_AttributeGrid>
+            <version>0.0.0.1</version>
+        </MageProfis_AttributeGrid>
+    </modules>
+    <global>
+        <helpers>
+            <mpattributegrid>
+                <class>MageProfis_AttributeGrid_Helper</class>
+            </mpattributegrid>
+        </helpers>
+        <blocks>
+            <mpattributegrid>
+                <class>MageProfis_AttributeGrid_Block</class>
+            </mpattributegrid>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_attribute_grid>MageProfis_AttributeGrid_Block_Catalog_Product_Attribute_Grid</catalog_product_attribute_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageProfis_AttributeGrid>
+            <active>true</active>
+            <codePool>community</codePool>
+        </MageProfis_AttributeGrid>
+    </modules>
+</config>
