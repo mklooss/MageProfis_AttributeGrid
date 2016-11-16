@@ -29,19 +29,6 @@ class MageProfis_AttributeGrid_Block_Catalog_Product_Attribute_Grid extends Mage
             $is_global->addData($info);
         }
 
-        $this->addColumnAfter('used_in_product_listing', array(
-            'header'=>Mage::helper('catalog')->__('Used in Product Listing'),
-            'sortable'=>true,
-            'index'=>'used_in_product_listing',
-            'type' => 'options',
-            'options' => array(
-                '1' => Mage::helper('catalog')->__('Yes'),
-                '0' => Mage::helper('catalog')->__('No'),
-            ),
-            'align' => 'center',
-            'width' => '50px',
-        ), 'is_comparable');
-
         $this->addColumnAfter('frontend_input', array(
             'header'=>Mage::helper('catalog')->__('Catalog Input Type for Store Owner'),
             'sortable'=>true,
